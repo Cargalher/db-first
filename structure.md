@@ -1,23 +1,23 @@
 # Database Car dealership:
 ## (table)Cars:
 
-- id                               PRIMARY KEY UNIQUE NOTNULL INDEX
-- Manufacturer (Make)              VARCHAR(30) 
-- Model                            VARCHAR(40)                 
-- Manufacturing Year               YEAR
-- Milleage                         MEDIUMMINT
-- Description                      TEXT
-- Price                            DECIMAL (6,2)
-- Seats                            TINYINT
-- Doors                            TINYINT
-- Environmental impact             VARCHAR(40)
-- Mass(KG)                         INT
-- Airbag                           VARCHAR(3)
-- fuel type                        VARCHAR(30)
-- Fuel consumption                 VARCHAR(10)
-- Transmission                     VARCHAR(10)                     
-- Engine Power                     VARCHAR(10)
-- Maximum Speed                    VARCHAR(15) 
+- id                             PRIMARY KEY UNIQUE NOTNULL INDEX             
+- Manufacturer (Make)            VARCHAR(30) NOTNULL
+- Model                          VARCHAR(40) NOTNULL                 
+- Manufacturing Year             YEAR NOTNULL
+- Milleage (KM)                  MEDIUMMINT NOTNULL
+- Description                    TEXT NOTNULL
+- Price                          DECIMAL (6,2) NOTNULL
+- Seats                          TINYINT NULL
+- Doors                          TINYINT NULL
+- Environmental impact           VARCHAR(40) NOTNULL
+- Mass(KG)                       INT NULL NULL
+- Airbag                         VARCHAR(3) NULL DEFAULT
+- fuel type                      ARCHAR(30) NOTNULL
+- Fuel consumption               VARCHAR(10) NULL
+- Transmission                   VARCHAR(10) NOTNULL                    
+- Engine Power                   VARCHAR(10) NULL
+- Maximum Speed                  VARCHAR(15) NULL
 
 
 
