@@ -2,21 +2,25 @@
 ## (table)Cars:
 
 - id
-- Make
+- Manufacturer (Make)
 - Model
--
--
--
--
--
--
--
--
--
--
--
--
--
--
+- Category
+- Manufacturing Year
+- Milleage
+- Features
+- Price
+- Seats
+- Doors
+- Environmental impact
+- Mass(KG)
+- Dimension
+- Airbag
+- fuel type
+-Fuel consumption
+- Gear Type
+- Car shape
+- Engine Power
+- Maximum Speed
+- 
 
 
